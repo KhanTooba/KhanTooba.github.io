@@ -29,8 +29,6 @@
     background-image: url("background.jpg");
     padding-top: 1%;
     padding-bottom: 1%;
-    /* padding-left: 10%; */
-    /* padding-right: 10%; */
     font-family: 'Roboto Slab';
     width: auto;
     height: fit-content;
@@ -46,8 +44,8 @@
 
 .fa {
     padding: 10px;
-    font-size: auto;
-    width: auto;
+    font-size: 30px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
