@@ -1,0 +1,94 @@
+.html{
+    background-color: #b1d8b7;
+}
+.image{
+    display: block;
+    width: 30%;
+}
+
+.p4{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Roboto Slab';
+    width: 60%;
+    height: fit-content;
+}
+
+.p5{
+   display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    width: 40%;
+}
+ 
+.p6{
+    background-image: url("background.jpg");
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Roboto Slab';
+    width: auto;
+    height: fit-content;
+    text-align: center;
+}
+
+.parent{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    font-family: 'Roboto Slab';
+    margin-left: 8%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
+.fa-envelope {
+    background: #007bb5;
+    color: white;
+}
+/* .p1{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Roboto Slab';
+    width: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available; 
+    min-height: 330px;
+    height: fit-content;
+}
+.p2{
+    display: inline-block;
+    position: relative;
+    width: 35%;
+    align-content: center;
+    align-items: center;
+}
+.p3{
+    position: relative;
+    width: 57%;
+    float: right;
+    margin-right: 8%;
+} */
