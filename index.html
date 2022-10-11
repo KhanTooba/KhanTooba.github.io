@@ -1,88 +1,274 @@
-<!DOCTYPE html>
-<html style="background-color:white">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Tooba Khan</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+     <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css" /> -->
 </head>
-<body>
-<div class="parent">
-    <img class="p5 image" src="tooba.jpeg" style="width: 15rem;">
 
-    <div class="p5" style="width: 68%">
-        <h2 style="font-size: 42px;">Tooba Khan</h2>
-            <h3 style="color: gray; font-size: 22px;">M.Tech, IIT Delhi.</h3>
-            <p style="font-size: 18px;">I am a final-year postgraduate student at the <a href="https://home.iitd.ac.in">Indian Institute of Technology, Delhi.</a>
-                I have completed my Bachelor's in Computer Engineering from 
-                <a href="https://amu.ac.in/colleges/zakir-husain-college-of-engineering-and-technology">Zakir 
-                Husain College of Engineering and Technology, Aligarh Muslim University,</a> where I secured the first rank. 
-                <br>After graduating in 2020, I worked with Siemens Logistics, India where I developed software for Mopa International Airport.
-                <br>I am currently working on my M.Tech project under the supervision of <a href="https://subodhvsharma.github.io">Dr. Subodh Vishnu Sharma.</a></p>
-    </div>
-</div>
-<hr>
-<div class="p4">
-    <h2 style="font-size: 36px;">Education</h1>
-    <p> 
-        <ul style="font-size: 19px">
-            <li>M.Tech (Cyber Security), IIT Delhi. [2021-23]</li>
-            <li>B.Tech (Computer Engineering), AMU. [2016-20]</li>
-          </ul>
-    </p>
-</div>
-<hr>
-<div class="p4">
-    <h2 style="font-size: 36px;">Projects</h1>
-    <p> 
-        <ul style="font-size: 19px">
-            <li>Adversarial robustness analysis of Deep learning systems in facial recognition domain. (2021-Present)
-                <br>Supervisor: <a href="https://subodhvsharma.github.io">Dr. Subodh Vishnu Sharma </a>
-            </li>
-            <li>Security analysis of android applications. (Jan, 2022 - April, 2022)
-                <br>Supervisor: <a href="https://subodhvsharma.github.io">Dr. Vireshwar Kumar </a>
-            </li>
-            <li>Reddit Post virality Prediction (Aug, 2021 - Nov, 2021)</li>
-            <li>Automatic source code summary generator for Java Source codes. (Aug, 2019- July, 2020)
-                <br>Supervisor: <a href="https://www.amu.ac.in/faculty/computer-engineering/tameem-ahmad">Mr. Tameem Ahmad </a>
-            </li>
-          </ul>
-    </p>
-</div>
-<hr>
-<div class="p4">
-    <h2 style="font-size: 36px;">Teaching Assistantship</h1>
-    <p> 
-        <ul style="font-size: 19px">
-            <li>COL-759 Cryptography and Computer Security</li>
-            <li><a href="https://timestsw.com/course/iit-delhi-certificate-programme-in-cybersecurity-foundations-and-pragmatics/">Certificate Programme in Cybersecurity: Foundations and Pragmatics.</a></li>
-            <li>COL-750 Foundations of Formal Verification</li>
-            <li>COL-765 Introduction to logic and Functional programming</li>
-          </ul>
-    </p>
-</div>
-<hr>
-<div class="p4">
-    <h2 style="font-size: 36px;">Courses at IITD</h1>
-    <p> 
-        <ul style="font-size: 19px">
-            <li>COL-774 Machine Learning</li>
-            <li>COV-885 Special topics in Computer applications-Blockchains and Cryptocurrencies</li>
-            <li>COL-702 Advanced Data Structures</li>
-            <li>COL-759 Cryptography and Computer Security</li>
-            <li>SIL-618 Computer Architecture</li>
-            <li>COL-876 Special Topics in Formal Methods</li>
-            <li>COL-672 Computer Networks</li>
-            <li>SIL-765 Network and System Security</li>
-            <li>ELL-880 Special Topics in Computer Engineering-Social Network Analysis</li>
-            <li>ELL-893 Cyber Physical Systems</li>
-          </ul>
-    </p>
-</div>
+    <body>
+       <!--########################### Header Starts Here ###################### -->
+        <div class="home-screen container-fluid">
+          <div class="home-cover">
+                <div id="menu-jk" class="header">
+                   <div class="container">
+                       <div class="row" style="display: flex; justify-content: center;position:relative">
+                           <div id="menu" >
+                               <ul style="width: 100%; text-align: center;">
+                                   <li><a href="#">Home</a></li>
+                                   <li><a href="#education">Education</a></li>
+                                   <li><a href="#experience">Experience</a></li>
+                                   <li><a href="#projects">Projects</a></li>
+                                   <li><a href="#courses">Courses Taken</a></li>
+                                   <li><a href="#news">News</a></li>
+                                   <!-- <li><a href="#cntact_us">Publications</a></li> -->
+                                   <li><a href="#cntact_us">Contact</a></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                <div class="container">
+                   <div class="row home-detail">
+                      <div class="col-md-5 animated bounceInLeft hom-img">
+                        <span class="faded faded-all"><img src="assets/images/name.png" alt=""></span>
+                      </div>
+                      <div class="col-md-7 animated bounceInRight homexp">
+                           <h5>Hello I'm</h5>
+                           <h2>Tooba Khan</h2>
+                           <span>Graduate Student <a >Indian Institute of Technology, Delhi</a> </span>
+                           <p>I am a final-year postgraduate student at the Indian Institute of Technology, Delhi. I have completed my Bachelor's in Computer Engineering from Zakir Husain College of Engineering and Technology, Aligarh Muslim University, where I secured the first rank. 
+                            After graduating in 2020, I worked with Siemens Logistics, India where I developed software for Mopa International Airport. 
+                            I am currently working on my M.Tech project under the supervision of Dr. Subodh Vishnu Sharma.
+                           </p>                           
+                           <!-- <ul class="socil-icon">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/toobakhan1703"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/KhanTooba"><i class="fab fa-github"></i></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:tooba.khan.jcs21@csia.iitd.ac.in"><i class="fa fa-envelope" aria-hidden="true"></i></a> 
+                                </li> -->
+                           </ul>
+                       </div>
+                   </div>
 
-<div class="p6">
-    <label style="font-size: 26px;">Contact: </label> 
-    <a href="https://www.linkedin.com/in/toobakhan1703" class="fa fa-linkedin fa-sx"></a> 
-    <a href="https://github.com/KhanTooba" class="fa fa-github" ></a> 
-    <a href="mailto:tooba.khan.jcs21@csia.iitd.ac.in" class="fa fa-envelope" ></a> 
-</div>
+                </div>
+          </div>
+        </div>
+        
+        <!--########################### Education Starts Here ###################### -->
+        
+        <div id="education" class="about-us container-fluid" style="background-color:#F5F5F5">
+           <div class="container" >
+               <div class="session-title row " >
+                    <h2 >Education</h2>
+                    
+                    <div class="heading-line"></div>
+                    
+                </div>
+                <div class="about-row row" style="align-items: center; ">
+                    <ul style="width: 100%; text-align: center;">
+                        <li>M.Tech (Cyber Security), IIT Delhi. [2021-23]</li>
+                        <li>B.Tech (Computer Engineering), AMU. [2016-20]</li>
+                      </ul>
+                  
+                </div>
+           </div>    
+            
+        </div>
+        
+           <!--########################### Experiences Starts Here ###################### -->
+           
+           <div id="experience" class="about-us container-fluid" >
+            <div class="container" >
+                <div class="session-title row " >
+                     <h2 >Experiences</h2>
+                     
+                     <div class="heading-line"></div>
+                     
+                 </div>
+                 <div class="about-row row" >
+                    <ul style="width: 100%">
+                    <li><strong>Teaching Assistant, Indian Institute of Technology, Delhi </strong> 
+                        <ol >
+                            <li class="myLists">COL-759 Cryptography and Computer Security [Aug'22-Present]</li>
+                            <li class="myLists"><a href="https://timestsw.com/course/iit-delhi-certificate-programme-in-cybersecurity-foundations-and-pragmatics/">Certificate Programme in Cybersecurity: Foundations and Pragmatics.</a> [Jan'22-May'22]</li>
+                            <li class="myLists">COL-750 Foundations of Formal Verification [Jan'22-Apr'22]</li>
+                            <li class="myLists">COL-765 Introduction to logic and Functional programming [Aug'21-Dec'21]</li>
+                        </ol>
+                    </li>
+                   <br>
+
+                    <li><strong>Graduate Engineering Trainee | Siemens Logistics, India </strong> 
+                        <br>(Oct'20 - Jul'21)
+                        <br> I worked with Java, Angular and Jasper Report to create an application to be deployed in MOPA International Aiport, India. My duties also included training an intern.
+                    </li>
+                   <br>
+
+                    <li><strong>Research Intern | Indian Institute of Technology, Delhi </strong> 
+                        <br>(Jun'19 - Aug'19)
+                        <br> Project Title: Entity resolution in Hindi Language texts for mass media analysis.
+                    </li>
+                <br>
+                </ul>
+                  
+                </div>
+            </div>    
+             
+         </div>
+
+         <!--########################### Projects Starts Here ###################### -->
+           
+         <div id="projects" class="about-us container-fluid" style="background-color:#F5F5F5">
+            <div class="container" >
+                <div class="session-title row " >
+                     <h2 >Projects</h2>
+                     
+                     <div class="heading-line"></div>
+                     
+                 </div>
+                 <div class="about-row row" >
+                     <ul style="width: 100%">
+                        <li><strong>Adversarial robustness analysis of Deep learning systems in facial recognition domain. </strong> 
+                            <br>(2021-Present)
+                            <br>Supervisors: <a href="https://subodhvsharma.github.io">Dr. Subodh Vishnu Sharma, </a> <a href="https://iitd.irins.org/profile/242563">Dr. Kumar Madhukar </a>
+                        </li>
+                    <br>
+                    <li><strong>Security analysis of android applications. </strong> 
+                        <br>(Jan, 2022 - April, 2022)
+                        <br>Supervisor: <a href="https://subodhvsharma.github.io">Dr. Vireshwar Kumar</a>
+                    </li>
+                    <br>
+                        <li><strong>Reddit Post virality Prediction</strong> <br> (Aug, 2021 - Nov, 2021)</li>
+                    <br>
+                        <li><strong>Automatic source code summary generator for Java Source codes.</strong> <br> (Aug, 2019- July, 2020)
+                            <br>Supervisor: <a href="https://www.amu.ac.in/faculty/computer-engineering/tameem-ahmad">Mr. Tameem Ahmad </a>
+                        </li>
+                    <br>
+                       </ul>
+                   
+                 </div>
+            </div>    
+             
+         </div>
+
+
+         <!--########################### Courses Taken start Here ###################### -->
+           
+         <div id="courses" class="about-us container-fluid">
+            <div class="container" >
+                <div class="session-title row " >
+                     <h2 >Courses Taken</h2>
+                     
+                     <div class="heading-line"></div>
+                     
+                 </div>
+                 <div class="about-row row" >
+                    <ul >
+                        <li class="myLists">COL-774 Machine Learning</li>
+                        <li class="myLists">COV-885 Special topics in Computer applications-Blockchains and Cryptocurrencies</li>
+                        <li class="myLists">COL-702 Advanced Data Structures</li>
+                        <li class="myLists">COL-759 Cryptography and Computer Security</li>
+                        <li class="myLists">SIL-618 Computer Architecture</li>
+                        <li class="myLists">COL-876 Special Topics in Formal Methods</li>
+                        <li class="myLists">COL-672 Computer Networks</li>
+                        <li class="myLists">SIL-765 Network and System Security</li>
+                        <li class="myLists">ELL-880 Special Topics in Computer Engineering-Social Network Analysis</li>
+                        <li class="myLists">ELL-893 Cyber Physical Systems</li>
+                      </ul>
+                   
+                 </div>
+            </div>    
+             
+         </div>
+        
+          
+             <!--  ************************* Contact  Starts Here ************************** -->
+                                      
+    <section id="cntact_us" class="contact-us-single"  style="background-color:#F5F5F5">
+        <!-- <div class="row no-margin">
+            <div class="col-sm-6 no-padding">
+                 <iframe style="width:100%" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249759.19784092825!2d79.10145254589841!3d12.009924873581818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1448883859107"  height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div  class="col-sm-6 cop-ck">
+                <h2 >Contact Form</h2>
+                    <div class="row cf-ro">
+                        <div  class="col-sm-3"><label>Enter Name :</label></div>
+                        <div class="col-sm-8"><input type="text" placeholder="Enter Name" name="name" class="form-control input-sm"  ></div>
+                    </div>
+                    <div  class="row cf-ro">
+                        <div  class="col-sm-3"><label>Email Address :</label></div>
+                        <div class="col-sm-8"><input type="text" name="name" placeholder="Enter Email Address" class="form-control input-sm"  ></div>
+                    </div>
+                     <div  class="row cf-ro">
+                        <div  class="col-sm-3"><label>Mobile Number:</label></div>
+                        <div class="col-sm-8"><input type="text" name="name" placeholder="Enter Mobile Number" class="form-control input-sm"  ></div>
+                    </div>
+                     <div  class="row cf-ro">
+                        <div  class="col-sm-3"><label>Enter  Message:</label></div>
+                        <div class="col-sm-8">
+                          <textarea rows="5" placeholder="Enter Your Message" class="form-control input-sm"></textarea>
+                        </div>
+                    </div>
+                     <div  class="row cf-ro">
+                        <div  class="col-sm-3"><label></label></div>
+                        <div class="col-sm-8">
+                         <button class="btn btn-primary btn-sm">Send Message</button>
+                        </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="p6">
+            <div class="session-title row " >
+                <h2 >Contact</h2>
+                
+                <div class="heading-line"></div>
+                
+            </div>
+            <a href="https://www.linkedin.com/in/toobakhan1703" class="fab fa-linkedin fa-3x"></a> 
+            <a href="https://github.com/KhanTooba" class="fab fa-github  fa-3x" ></a> 
+            <a href="mailto:tooba.khan.jcs21@csia.iitd.ac.in" class="fa fa-envelope  fa-3x" ></a> 
+        </div>
+    </section>   
+    
+                          
+    <!--  ************************* Footer  Starts Here ************************** -->
+
+    <footer class="container-fluid footer">
+        <div class="container">
+            <div class="row footerro">
+                <p> 
+                    
+                    <span><a href="#">HOME</a></span>
+                    <span><a href="#news">NEWS</a></span>
+                    <span><a href="#cntact_us">CONTACT</a></span>
+                 </p>
+            </div>
+        </div>
+    </footer>                                                                                                                                          
+                
+        
+    </body>
+
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+    <script src="assets/plugins/slider/js/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</html>
