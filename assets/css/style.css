@@ -10,6 +10,22 @@ Description: This Template is created for Youtubers
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
 /* ===================================== Basic CSS ==================================== */
+
+.image-blurred-edge {
+  /* background-image: url('assets/images/name.png'); */
+  /* width: 200px;
+  height: 200px; */
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 8px 8px white inset;
+}
+/* .image-blurred-edge {
+  background-image: url('http://lorempixel.com/200/200/city/9');
+  width: 200px;
+  height: 200px;
+  you need to match the shadow color to your background or image border for the desired effect
+  box-shadow: 0 0 8px 8px white inset;
+} */
+
 * {
   margin: 0px;
   padding: 0px;
