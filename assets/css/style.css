@@ -10,6 +10,14 @@ Description: This Template is created for Youtubers
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
 /* ===================================== Basic CSS ==================================== */
+.tab1 {
+  display: inline-block;
+  margin-left: 187px;
+}
+.tab2 {
+  display: inline-block;
+  margin-left: 140px;
+}
 
 .image-blurred-edge {
   /* background-image: url('assets/images/name.png'); */
