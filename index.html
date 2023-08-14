@@ -115,20 +115,23 @@
         <div class="home-screen container-fluid">
           <div class="home-cover">
                 <div id="menu-jk" class="header">
-                   <div class="container">
+                    <div class="container" style="max-width:100%">
                        <div class="row" style="display: flex; justify-content: center;position:relative">
                         <!-- style="display: flex; justify-content: center;position:relative" -->
                            <div id="menu" class="d-none d-md-block" style="text-align: center;">
                                <ul > 
                                 <!-- style="width: 100%; text-align: center;" -->
+                                    
                                    <li><a href="#">Home</a></li>
                                    <li><a href="#education">Education</a></li>
                                    <li><a href="#publications">Publications</a></li>
+                                   <li><a href="#awards">Awards & Honors</a></li>
                                    <li><a href="#exams">Exams Qualified</a></li>
                                    <li><a href="#experience">Experience</a></li>
                                    <li><a href="#projects">Projects</a></li>
-                                   <li><a href="#courses">Courses Taken at IIT Delhi</a></li>
+                                   <!-- <li><a href="#courses">Courses Taken at IIT Delhi</a></li> -->
                                    <li><a href="#news"><font face="Trattatello">What's new?</font></a></li>
+                                   <li><a href="personal.html"><font face="Trattatello">Personal</font></a></li>
                                    <li><a href="#cntact_us">Contact</a></li>
                                </ul>
                            </div>
@@ -143,10 +146,11 @@
                       <div class="col-md-7 animated bounceInRight homexp">
                            <h5>Hello I'm</h5>
                            <h2>Tooba Khan</h2>
-                           <span>Graduate Student <a >Indian Institute of Technology, Delhi</a> </span>
-                           <p>I am a final-year postgraduate student at the Indian Institute of Technology, Delhi. I have completed my Bachelor's in Computer Engineering from Zakir Husain College of Engineering and Technology, Aligarh Muslim University, where I secured the first rank. 
+                           <span>Doctoral student <a >University of Southern California, LA, USA</a> </span>
+                           <p>I am pursuing Ph.D. from the Thomas Lord Department of Computer Science, USC. I have completed my Master's degree from the Indian Institute of Technology Delhi
+                            where I worked on the security of Machine Learning models under the supervision of Dr. Subodh Vishnu Sharma and Dr.Kumar Madhukar.
+                            I graduated with a Bachelor's degree in Computer Engineering from Zakir Husain College of Engineering and Technology, Aligarh Muslim University, where I secured the first rank. 
                             After graduating in 2020, I worked with Siemens Logistics, India where I developed software for Mopa International Airport. 
-                            I am currently working on my M.Tech project under the supervision of Dr. Subodh Vishnu Sharma and Dr.Kumar Madhukar.
                            </p>   
                            <br>
                            <br>                        
@@ -170,7 +174,7 @@
         
         <!--########################### Education Starts Here ###################### -->
         
-        <div id="education" class="about-us container-fluid" style="background-color:#F5F5F5">
+        <div id="education" class="about-us container-fluid" >
            <div class="container" >
                <div class="session-title row " >
                     <h2 >Education</h2>
@@ -182,11 +186,15 @@
                     <ul style="width: 100%; text-align: center;">
                         <!-- <li>M.Tech (Cyber Security), IIT Delhi. [2021-23]</li>
                         <li>B.Tech (Computer Engineering), AMU. [2016-20]</li> -->
-                        <li class="myList"><strong>M.Tech (Cyber Security), IIT Delhi.</strong>
+                        <li class="myList"><strong>Ph.D. (Computer Science), University of Southern California</strong>
+                            <br>2023-Present
+                        </li>
+                        <br>
+                        <li class="myList"><strong>M.Tech (Cyber Security), IIT Delhi</strong>
                             <br>CGPA: 9.42 | 2021-23
                         </li>
                         <br>
-                        <li class="myList"><strong>B.Tech (Computer Engineering), AMU.</strong>
+                        <li class="myList"><strong>B.Tech (Computer Engineering), AMU</strong>
                             <br>CGPA: 9.96 | Gold Medalist, Batch'20 | 2016-20
                         </li>
                       </ul>
@@ -198,7 +206,7 @@
 
          <!--########################### Publications start Here ###################### -->
            
-         <div id="publications" class="about-us container-fluid">
+         <div id="publications" class="about-us container-fluid" style="background-color:#F5F5F5">
             <div class="container" >
                 <div class="session-title row " >
                      <h2 >Publications & Posters</h2>
@@ -222,6 +230,26 @@
                                         <li style="padding-left: 20px;">SAT-SMT School, FSTTCS'22, IIT Madras</li>
                            
                         
+                      </ul>
+                   
+                 </div>
+            </div>    
+             
+         </div>
+
+         <!--########################### Awards start here ###################### -->
+           
+         <div id="awards" class="about-us container-fluid">
+            <div class="container" >
+                <div class="session-title row " >
+                     <h2 >Awards & Honors</h2>
+                     
+                     <div class="heading-line"></div>
+                     
+                 </div>
+                 <div class="about-row row" style="justify-content:center">
+                    <ul >
+                        <li class="myLists">ISI Distinguished Graduate Student Researcher Fellowship Award, Information Sciences Institute, USC</li>
                       </ul>
                    
                  </div>
@@ -275,7 +303,7 @@
                     <ul style="width: 100%">
                     <li><strong>Teaching Assistant | Indian Institute of Technology, Delhi </strong> 
                         <ol >
-                            <li class="myLists">COL-106 Data Structures and Algorithms [Jan'23-Present]</li>
+                            <li class="myLists">COL-106 Data Structures and Algorithms [Jan'23-June'23]</li>
                             <li class="myLists">COL-759 Cryptography and Computer Security [Aug'22-Dec'22]</li>
                             <li class="myLists"><a href="https://timestsw.com/course/iit-delhi-certificate-programme-in-cybersecurity-foundations-and-pragmatics/">Certificate Programme in Cybersecurity: Foundations and Pragmatics</a> [Jan'22-May'22]</li>
                             <li class="myLists">COL-750 Foundations of Formal Verification [Jan'22-Apr'22]</li>
@@ -340,7 +368,7 @@
 
          <!--########################### Courses Taken start Here ###################### -->
            
-         <div id="courses" class="about-us container-fluid">
+         <!-- <div id="courses" class="about-us container-fluid">
             <div class="container" >
                 <div class="session-title row " >
                      <h2 >Courses Taken at IIT Delhi</h2>
@@ -366,10 +394,10 @@
                  </div>
             </div>    
              
-         </div>
+         </div> -->
     <!--  ************************* News Starts Here ************************** -->
                                       
-    <div id="news" class="about-us container-fluid" style="background-color:#F5F5F5">
+    <div id="news" class="about-us container-fluid" >
         <div class="container" >
             <div class="session-title row " >
                  <h2 ><font face="Trattatello">What's new?</font></h2>
@@ -393,6 +421,11 @@
                         <td class="col1">[23-25th February, 2023]</td>
                         <td class="col2"><strong>I will be attending <a href="https://isec23.iiita.ac.in"></a>ISEC'23 in Allahabad</strong></td>
                       </tr>
+
+                      <tr>
+                        <td class="col1">[21st August, 2023]</td>
+                        <td class="col2"><strong>Starting my Ph.D. degree at the Thomas Lord department of Compter Science, USC.</strong></td>
+                      </tr>
                     
                   </table>
              </div>
@@ -403,127 +436,7 @@
 
     <!--  ************************* Photo Gallery Starts Here ************************** -->
     <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-    <section id="photoGallery" style="height: 700px;">
-
-        <div class="p6" style="height: 700px;">
-            <div class="session-title row " >
-                <h2><font face="Trattatello">Beautiful places I have been to</font></h2>
-                
-                <!-- <div class="heading-line"></div> -->
-                
-            </div>
-            <div class="slideshow-container" style="height: 70%;">
-
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">1 / 14</div>
-                    <img src="images/kashmir6.jpeg" style="height:100%">
-                    <div class="text">Dal Lake, Kashmir, 2023</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">2 / 14</div>
-                    <img src="images/kashmir3.jpg" style="height:100%">
-                    <div class="text">Kashmir, 2023</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">3 / 14</div>
-                    <img src="images/kashmir4.jpg" style="height:100%">
-                    <div class="text">Kashmir, 2023</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">4 / 14</div>
-                    <img src="images/chennai.jpeg" style="height:100%">
-                    <div class="text">Edward Elliot's Beach, Chennai, 2022</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">5 / 14</div>
-                    <img src="images/musoorie4.jpg" style="height:100%">
-                    <div class="text">Mussoorie, 2022</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">6 / 14</div>
-                    <img src="images/mussoorie3.jpg" style="height:100%">
-                    <div class="text">Mussoorie, 2022</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">7 / 14</div>
-                    <img src="images/mussoorie.jpg" style="height:100%">
-                    <div class="text">Mussoorie, 2022</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">8 / 14</div>
-                    <img src="images/sahastradhaara.jpg" style="height:100%">
-                    <div class="text">Sahastradhaara, Uttarakhand, 2022</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">9 / 14</div>
-                    <img src="images/dehradun.jpg" style="height:100%">
-                    <div class="text">Dehradun, 2022</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">10 / 14</div>
-                    <img src="images/auli3.jpg" style="height:100%">
-                    <div class="text">Auli, Uttarakhand, 2020</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">11 / 14</div>
-                    <img src="images/auli2.jpg" style="height:100%">
-                    <div class="text" >Joshimath, Uttarakhand, 2020</div>
-                </div>
-
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">12 / 14</div>
-                    <img src="images/auli1.jpg" style="height:100%">
-                    <div class="text">Auli, Uttarakhand, 2020</div>
-                </div>
-                  
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">13 / 14</div>
-                    <img src="images/delhibhavan.jpg" style="height:100%">
-                    <div class="text">Rashtrpati bhavan, Delhi, 2019</div>
-                </div>
-                  
-                <div class="mySlides" style="height:100%">
-                    <div class="numbertext">14 / 14</div>
-                    <img src="images/eiffel.jpg" style="height:100%">
-                    <div class="text">Waste to Wonder Park, Delhi, 2019</div>
-                </div>
-              
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)" style="left: 0px">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-              </div>
-              <br>
-              
-              <!-- The dots/circles -->
-              <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-                <span class="dot" onclick="currentSlide(4)"></span> 
-                <span class="dot" onclick="currentSlide(5)"></span> 
-                <span class="dot" onclick="currentSlide(6)"></span> 
-                <span class="dot" onclick="currentSlide(7)"></span> 
-                <span class="dot" onclick="currentSlide(8)"></span> 
-                <span class="dot" onclick="currentSlide(9)"></span> 
-                <span class="dot" onclick="currentSlide(10)"></span> 
-                <span class="dot" onclick="currentSlide(11)"></span> 
-                <span class="dot" onclick="currentSlide(12)"></span> 
-                <span class="dot" onclick="currentSlide(13)"></span> 
-                <span class="dot" onclick="currentSlide(14)"></span> 
-              </div>
-        </div>
-    </section>
+    
     
     <!--  ************************* Contact  Starts Here ************************** -->
                                       
@@ -538,7 +451,7 @@
             </div>
             <a href="https://www.linkedin.com/in/toobakhan1703" class="fab fa-linkedin fa-3x"></a> 
             <a href="https://github.com/KhanTooba" class="fab fa-github  fa-3x" ></a> 
-            <a href="mailto:jcs212245@iitd.ac.in" class="fa fa-envelope  fa-3x" ></a> 
+            <a href="mailto:tooba.khan@usc.edu" class="fa fa-envelope  fa-3x" ></a> 
             <a href="https://scholar.google.com/citations?user=bGqBMOkAAAAJ&hl=en" class="fa fa-graduation-cap  fa-3x" ></a> 
         </div>
     </section>    
