@@ -465,7 +465,7 @@
 @media (max-width: 768px) {
   .section {
     padding-left: 0.5rem;
-    padding-right: 2.5rem;
+    padding-right: 1.0rem;
   }
 
   h2 {
